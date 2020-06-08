@@ -1,0 +1,99 @@
+ body {
+ .text-justify{
+ 	text-align: justify;
+ }
+ background-color: rgb(240,240,240);
+ font-family: 'Libre Baskerville', serif;
+}
+
+h1, h2, h3 {
+	font-family: 'Roboto Condensed', sans-serif;
+}
+h1 {
+    color: #ffa4b4;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    letter-spacing: 2px;
+    font-size: 55px;
+}
+
+/*Colors and fonts*/
+
+body {
+	background: rgb(230,230,230);
+	color: rgb(50,50,50);
+	font-size: 17px;
+}
+h1{
+	font-weight: 700;
+}
+h2 {
+	color:rgb(100,100,100);
+	font-size: 24px;
+	font-weight: lighter;
+	font-weight: 700;
+}
+
+a{
+	font-family: 'Roboto Condensed', sans-serif;
+	text-decoration: none;
+	color: blue;
+
+}
+a:hover{
+	color: blue;
+}
+
+.container{
+	width: 700px;
+	margin: 40px auto;
+}
+
+.list-inline{
+	list-style: none;
+}
+
+@media (max-width: 760px){
+	.container{
+		width:600px
+	}
+}
+
+@media(max-width: 500px){
+	.container{
+		width: 400px;
+	}
+}
+
+
+.card-white{
+	background-color: white;
+	padding: 40px;
+	box-shadow: 0px 10px 30px rgba (0,0,0,0,1)
+	border-radius: 4px;
+	margin: 60px 100px;
+	text-align: center;
+	border-top: 6px solid pink;
+	border-right: 6px solid pink;
+	border-bottom: 6px solid pink;
+	border-left: 6px solid pink;
+}
+
+.img-circle{
+	border-radius: 50%;
+}
+.shadowed{
+	box-shadow: 10px 10px 10px black;
+}
+
+.fa-facebook-square:before {
+    font-size: -webkit-xxx-large;
+    color: pink;
+    content: "\f082"
+}
+
+.fa-instagram:before {
+    color: pink;
+    font-size: -webkit-xxx-large;
+    content: "\f16d";
+}
